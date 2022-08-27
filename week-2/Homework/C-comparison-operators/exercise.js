@@ -4,7 +4,7 @@
   Using comparison operators complete the unfinished statements.
   The variables should have values that match the expected results.
 */
-
+bhgf
 var studentCount = 16;
 var mentorCount = 9;
 var moreStudentsThanMentors = (studentCount>mentorCount); // finish this statement
