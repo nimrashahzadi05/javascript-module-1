@@ -6,10 +6,16 @@
 
 */
 
-let n = 10;
+let n = 3;
 
 function sumTillNum(num){
-	//your code here
+	let i=0
+	let total=0
+	while(i<=num){
+		total +=i // total = total + i
+		i++
+		//your code here
 }
+return total;}
 
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
