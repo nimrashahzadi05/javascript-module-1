@@ -9,7 +9,8 @@ To be safe to land on, a planet needs to have an Oxygen level between 19.5% and 
 Write a function that finds the first safe oxygen level in the array - Oxygen between 19.5% and 23.5%
 */
 
-function safeLevels() {
+function safeLevels(array) {
+    return array.find(e => e > "19.5%" && e < "23.5%")
 
 }
 

@@ -8,9 +8,15 @@
   NOTE: don't include any element that is not a "family".
 */
 
-function colonisers() {
 
+function colonisers(array){
+  return array.filter( e =>{
+    return e[0] == "A" && e.includes("family")
+  }
+
+  )
 }
+console.log(colonisers(voyagers))
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 
@@ -28,6 +34,8 @@ const voyagers = [
   "Avery family",
   "Archer family"
 ];
+
+
 
 const util = require('util');
 

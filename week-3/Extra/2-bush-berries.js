@@ -14,6 +14,12 @@ function bushChecker() {
 
 }
 
+function canIEat(array){
+  return array.every(e => e === "pink" )
+}
+  
+
+
 /* ======= TESTS - DO NOT MODIFY ===== */
 
 let bushBerryColours1 = ["pink", "pink", "pink", "neon", "pink", "transparent"]
